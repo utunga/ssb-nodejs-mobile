@@ -8,7 +8,8 @@ Experimentation for running [scuttlebot](https://github.com/ssbc/scuttlebot) wit
 - proof-of-concept iOS :white_check_mark:
 - support more native modules (sodium, leveldown, utp-native) :x:
 
-## Usage
+## Installation 
+
 ```
 git clone https://github.com/luandro/ssb-nodejs-mobile.git
 cd ssb-nodejs-mobile
@@ -17,7 +18,7 @@ npm i
 
 Than open the project's `./android` directory in Android Studio in order to download all the necessary dependencies.
 
-Enter the NodeJS project directory and run `npm install` which will also run `npm run prepare` to patch `nodejs-mobile-react-native`.
+Next, enter the `nodejs-assets/nodejs-project` directory and run `npm install` which will also run `npm run prepare` to patch `nodejs-mobile-react-native`.
 
 `npm run dev` to start Android development and logging.
 
